@@ -1,9 +1,16 @@
-const whitecapsHome2023 = [
+const whitecapsHome2023 = [{
+        "summary": "Whitecaps Home Game - Both Tickets",
+        "start": "2023-02-25"
+    },
     {
         "summary": "Vancouver Whitecaps FC vs Real Salt Lake ",
         "location": "BC Place, 777 Pacific Blvd, Vancouver, BC, V6B 4Y8",
         "start": "2023-02-25T19:30:00-08:00",
         "end": "2023-02-25T22:30:00-08:00"
+    },
+    {
+        "summary": "Whitecaps Home Game - Both Tickets",
+        "start": "2023-03-08"
     },
     {
         "summary": "Vancouver Whitecaps FC vs Real España ",
@@ -12,10 +19,18 @@ const whitecapsHome2023 = [
         "end": "2023-03-08T22:00:00-08:00"
     },
     {
+        "summary": "Whitecaps Home Game",
+        "start": "2023-03-11"
+    },
+    {
         "summary": "Vancouver Whitecaps FC vs FC Dallas ",
         "location": "BC Place, 777 Pacific Blvd, Vancouver, BC, V6B 4Y8",
         "start": "2023-03-11T14:00:00-08:00",
         "end": "2023-03-11T17:00:00-08:00"
+    },
+    {
+        "summary": "Whitecaps Home Games",
+        "start": "2023-04-01"
     },
     {
         "summary": "Vancouver Whitecaps FC vs CF Montréal ",
@@ -24,10 +39,18 @@ const whitecapsHome2023 = [
         "end": "2023-04-01T22:30:00-07:00"
     },
     {
+        "summary": "Whitecaps Home Game - Both Tickets",
+        "start": "2023-04-08"
+    },
+    {
         "summary": "Vancouver Whitecaps FC vs Portland Timbers ",
         "location": "BC Place, 777 Pacific Blvd, Vancouver, BC, V6B 4Y8",
         "start": "2023-04-08T19:30:00-07:00",
         "end": "2023-04-08T22:30:00-07:00"
+    },
+    {
+        "summary": "Whitecaps Home Game",
+        "start": "2023-04-29"
     },
     {
         "summary": "Vancouver Whitecaps FC vs Colorado Rapids ",
@@ -36,10 +59,18 @@ const whitecapsHome2023 = [
         "end": "2023-04-29T22:30:00-07:00"
     },
     {
+        "summary": "Whitecaps Home Game",
+        "start": "2023-05-06"
+    },
+    {
         "summary": "Vancouver Whitecaps FC vs Minnesota United ",
         "location": "BC Place, 777 Pacific Blvd, Vancouver, BC, V6B 4Y8",
         "start": "2023-05-06T19:30:00-07:00",
         "end": "2023-05-06T22:30:00-07:00"
+    },
+    {
+        "summary": "Whitecaps Home Game - Both Tickets",
+        "start": "2023-05-20"
     },
     {
         "summary": "Vancouver Whitecaps FC vs Seattle Sounders FC ",
@@ -47,11 +78,19 @@ const whitecapsHome2023 = [
         "start": "2023-05-20T19:30:00-07:00",
         "end": "2023-05-20T22:30:00-07:00"
     },
+    //{
+    //    "summary": "Whitecaps Home Game - Bruce has Tickets",
+    //    "start": "2023-05-31"
+    //},
+    //    {
+    //        "summary": "Vancouver Whitecaps FC vs Houston Dynamo FC ",
+    //        "location": "BC Place, 777 Pacific Blvd, Vancouver, BC, V6B 4Y8",
+    //        "start": "2023-05-31T19:30:00-07:00",
+    //        "end": "2023-05-31T22:30:00-07:00"
+    //    },
     {
-        "summary": "Vancouver Whitecaps FC vs Houston Dynamo FC ",
-        "location": "BC Place, 777 Pacific Blvd, Vancouver, BC, V6B 4Y8",
-        "start": "2023-05-31T19:30:00-07:00",
-        "end": "2023-05-31T22:30:00-07:00"
+        "summary": "Whitecaps Home Game",
+        "start": "2023-06-03"
     },
     {
         "summary": "Vancouver Whitecaps FC vs Sporting Kansas City ",
@@ -60,10 +99,18 @@ const whitecapsHome2023 = [
         "end": "2023-06-03T22:30:00-07:00"
     },
     {
+        "summary": "Whitecaps Home Game",
+        "start": "2023-06-10"
+    },
+    {
         "summary": "Vancouver Whitecaps FC vs FC Cincinnati ",
         "location": "BC Place, 777 Pacific Blvd, Vancouver, BC, V6B 4Y8",
         "start": "2023-06-10T19:30:00-07:00",
         "end": "2023-06-10T22:30:00-07:00"
+    },
+    {
+        "summary": "Whitecaps Home Game",
+        "start": "2023-07-08"
     },
     {
         "summary": "Vancouver Whitecaps FC vs Seattle Sounders FC ",
@@ -72,10 +119,18 @@ const whitecapsHome2023 = [
         "end": "2023-07-08T22:30:00-07:00"
     },
     {
+        "summary": "Whitecaps Home Game",
+        "start": "2023-07-12"
+    },
+    {
         "summary": "Vancouver Whitecaps FC vs Austin FC ",
         "location": "BC Place, 777 Pacific Blvd, Vancouver, BC, V6B 4Y8",
         "start": "2023-07-12T19:30:00-07:00",
         "end": "2023-07-12T22:30:00-07:00"
+    },
+    {
+        "summary": "Whitecaps Home Game",
+        "start": "2023-07-15"
     },
     {
         "summary": "Vancouver Whitecaps FC vs LA Galaxy ",
@@ -84,10 +139,18 @@ const whitecapsHome2023 = [
         "end": "2023-07-15T22:30:00-07:00"
     },
     {
+        "summary": "Whitecaps Home Game",
+        "start": "2023-08-20"
+    },
+    {
         "summary": "Vancouver Whitecaps FC vs San Jose Earthquakes ",
         "location": "BC Place, 777 Pacific Blvd, Vancouver, BC, V6B 4Y8",
         "start": "2023-08-20T19:30:00-07:00",
         "end": "2023-08-20T22:30:00-07:00"
+    },
+    {
+        "summary": "Whitecaps Home Game",
+        "start": "2023-09-30"
     },
     {
         "summary": "Vancouver Whitecaps FC vs D.C. United ",
@@ -96,10 +159,18 @@ const whitecapsHome2023 = [
         "end": "2023-09-30T22:30:00-07:00"
     },
     {
+        "summary": "Whitecaps Home Game",
+        "start": "2023-10-04"
+    },
+    {
         "summary": "Vancouver Whitecaps FC vs St. Louis CITY SC ",
         "location": "BC Place, 777 Pacific Blvd, Vancouver, BC, V6B 4Y8",
         "start": "2023-10-04T19:30:00-07:00",
         "end": "2023-10-04T22:30:00-07:00"
+    },
+    {
+        "summary": "Whitecaps Home Game - Both Tickets",
+        "start": "2023-10-21"
     },
     {
         "summary": "Vancouver Whitecaps FC vs LAFC (time tbd) ",
@@ -108,7 +179,6 @@ const whitecapsHome2023 = [
     }
 ];
 
-/*
 const whitecaps2023 = [
     {
         "summary": "Vancouver Whitecaps FC vs Real Salt Lake ",
@@ -325,4 +395,3 @@ const whitecaps2023 = [
         "start": "2023-10-21"
     }
 ];
-*/
