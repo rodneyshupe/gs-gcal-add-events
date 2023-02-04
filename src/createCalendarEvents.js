@@ -1,15 +1,18 @@
 // Function to create new events in a calendar using a JSON object
-const createCalendarEvents = (eventData, calendarId, startDate) => {
+const createCalendarEvents = (eventData, calendarId) => {
     const calendar = CalendarApp.getCalendarById(calendarId);
 
     eventData.forEach(event => {
         if (event.end == null) {
-            calendar.createAllDayEvent(event.summary, new Date(event.start.getDate()));
+            const eventStart = new Date(event.start);
+            eventStart.setDate(eventStart.getDate() + 1);
+            calendar.createAllDayEvent(event.summary, eventStart);
         } else {
             calendar.createEvent(event.summary,
-                event.start.getDateTime(),
-                event.end.getDateTime(),
-                {location: event.location});
+                new Date(event.start),
+                new Date(event.end), {
+                    location: event.location
+                });
         }
     });
 };
